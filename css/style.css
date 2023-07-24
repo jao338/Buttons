@@ -1,5 +1,71 @@
+:root{
+    --blue1: #3887fe;
+    --blue2: #5f60f6;
+    --orange1 : #ff9c0b;
+    --orange2 : #fc5507;
+    --pink: #ff006c;
+    --pink: #8338eb;
+    --bg: #bdbec2;
+    --shadow: #a1a2a4;
+}
+
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+}
+
+.content{ 
+    background-color: var(--bg);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid{
+    display: grid;
+    padding: 3%;
+}
+
+.btn{
+    margin: 30px;
+}
+
+.img{
+    position: relative;
+    left: -64px;
+    background-color: var(--blue1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px 100px 100px 100px;
+    width: 128px;
+    height: 128px;
+    box-shadow: -4px 6px var(--shadow);
+}
+
+
+#btn-download-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 304px;
+    height: 96px;
+    border-radius: 60px 60px 0px 60px;
+    color: var(--blue1) ;
+    background-color: white;
+    border: none;
+    box-shadow: 6px 10px var(--shadow);
+}
+
+#btn-download-text{
+    position: relative;
+    left: -25px;
+    border-radius: 20px 20px 0px 20px;
+    color: var(--blue1) ;
+    background-color: white;
+    border: none;
+    font-size: 16pt;
+    text-transform: uppercase;
 }
