@@ -58,6 +58,20 @@
     box-shadow: -4px 8px var(--shadow);
 }
 
+
+.img-cart{
+    position: relative;
+    left: -80px;
+    background-color: var(--pink);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px 100px 100px 100px;
+    width: 128px;
+    height: 128px;
+    box-shadow: -4px 6px var(--shadow);
+}
+
 .img-play{
     position: relative;
     left: -64px;
@@ -84,6 +98,32 @@
     box-shadow: -4px 10px var(--shadow);
 }
 
+.img-contact{
+    position: relative;
+    left: -64px;
+    background-color:var(--blue2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px 100px 100px 100px;
+    width: 128px;
+    height: 128px;
+    box-shadow: -4px 6px var(--shadow);
+}
+
+.img-like{
+    position: relative;
+    left: -96px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px 100px 100px 100px;
+    width: 128px;
+    height: 128px;
+    box-shadow: -4px 6px var(--shadow);
+}
+
 #btn-download-div{
     display: flex;
     justify-content: center;
@@ -103,6 +143,82 @@
     border-radius: 20px 20px 0px 20px;
     color: var(--blue1) ;
     background-color: white;
+    border: none;
+    font-size: 18pt;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+
+#btn-cart-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 304px;
+    height: 96px;
+    border-radius: 60px 60px 0px 60px;
+    color: var(--blue1) ;
+    background-color: white;
+    border: none;
+    box-shadow: 0px 10px var(--shadow), 6px 10px var(--shadow);
+}
+
+#btn-cart-text{
+    position: relative;
+    left: -30px;
+    border-radius: 20px 20px 0px 20px;
+    color: var(--pink);
+    background-color: white;
+    border: none;
+    font-size: 18pt;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+#btn-contact-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 304px;
+    height: 96px;
+    border-radius: 60px 60px 0px 60px;
+    color: var(--blue2) ;
+    background-color: white;
+    border: none;
+    box-shadow: 0px 10px var(--shadow), 6px 10px var(--shadow);
+}
+
+#btn-contact-text{
+    position: relative;
+    left: -30px;
+    border-radius: 20px 20px 0px 20px;
+    color: var(--blue2) ;
+    background-color: white;
+    border: none;
+    font-size: 18pt;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+#btn-like-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 304px;
+    height: 96px;
+    border-radius: 60px 60px 0px 60px;
+    color: var(--blue2) ;
+    background-color: var(--orange1);
+    border: none;
+    box-shadow: 0px 10px var(--shadow), 6px 10px var(--shadow);
+}
+
+#btn-like-text{
+    position: relative;
+    left: -30px;
+    border-radius: 20px 20px 0px 20px;
+    color: white ;
+    background-color:var(--orange1);
     border: none;
     font-size: 18pt;
     text-transform: uppercase;
